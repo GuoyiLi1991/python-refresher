@@ -1,3 +1,11 @@
+'''
+we can change list but can not do it on tuple
+list and tuple have order but set does not have
+     - so we can do list[1] or tuple[1]; but can not do set[2]
+list and tuple can have multiple same element but set could not
+'''
+
+
 l = ["Bob", "Rolf", "Anne"]
 t = ("Bob", "Rolf", "Anne")
 s = {"Bob", "Rolf", "Anne"}

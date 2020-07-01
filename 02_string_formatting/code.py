@@ -31,3 +31,8 @@ print(with_name)
 longer_phrase = "Hello, {}. Today is {}."
 formatted = longer_phrase.format("Rolf", "Monday")
 print(formatted)
+
+# we can define a template and then access to it later as follow
+# It does not necessary to be
+longer_phrase = "Hello, {}. Today is {}.".format("Rolf", "Monday")
+print(longer_phrase)

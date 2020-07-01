@@ -14,3 +14,9 @@ abroad = ["Rolf", "Bob"]
 
 print(friends == abroad)  # True
 print(friends is abroad)  # False
+
+# "is" check if the attribute is exactly the same including the allocated memory.
+# we recommend using "==" always
+
+print(id(friends))
+print(id(abroad))
